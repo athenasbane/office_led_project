@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Office Controls</title>
+  </head>
+  <body>
+    <div>
+      <button>ON</button>
+      <button>OFF</button>
+    </div>
+    <div>
+      <input type="range" min="0" max="100" class="slider" id="dimmer" />
+    </div>
+  </body>
+</html>
